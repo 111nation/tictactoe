@@ -32,3 +32,8 @@ function Board(props) {
 	);
 }
 ```
+Each tile returns its index in the array in order to identify it when it is clicked, helping easy modification of the game array. The main logic stored in `GameState.js` helps the game determine the state of the game. For example, it determines if a win has been made or a draw or if the game must still proceed. 
+
+`index.js` mainly focuses on combining the Game logic and UI logic in order to form the `<App />` component.
+
+And ofc :) `index.css` contains all the styling, which is responsive and playable on any device (not extremes tho!)
